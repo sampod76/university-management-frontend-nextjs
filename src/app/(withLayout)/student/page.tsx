@@ -3,7 +3,7 @@ import React from 'react';
 const StudentPage = () => {
     return (
         <div>
-            <h1>this page is students</h1>
+            <h1>This is student page</h1>
         </div>
     );
 };

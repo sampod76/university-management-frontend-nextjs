@@ -31,6 +31,7 @@ instance.interceptors.response.use(function (response) {
     // Do something with response data
     const responseObject:ResponseSuccessType  ={
         data:response?.data?.data,
+        success:response?.data?.success,
         meta:response?.data?.meta
     }
 

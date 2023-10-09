@@ -30,6 +30,9 @@ export const axiosBaseQuery =
           containtType:containtType || "application/json"
         }
       });
+      //! if you wented your data is this formate --> {data: {…}, success: true, meta: undefined}
+      // return { data: result};
+      //! if you went your data is clean only success then data 
       return { data: result.data };
     } catch (axiosError) {
       let err = axiosError as AxiosError;
